@@ -4,7 +4,7 @@ import sys
 
 def main():
     # 创建虚拟环境
-    venv_name = "venv"
+    venv_name = ".venv"
     subprocess.run([sys.executable, "-m", "venv", venv_name])
 
     # 安装requirements.txt中的包
