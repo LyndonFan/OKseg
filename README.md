@@ -3,24 +3,24 @@
 ---
 
 ### Catalogue
-1. [Installment](#Installment)
+1. [Installation](#Installation)
 2. [Preparation](#Preparation)
 3. [GUI_Utilization](#GUI_Utilization)
 4. [Declaration](#Declaration)
 5. [Acknowledgments](#Acknowledgments)
 6. [Reference](#Reference)
 
-## Installment 
-1. Please ensure that Python 3 (**"python>=3.7.0"**) has been installed on your computer (and has been set in System Path).
+## Installation 
+1. Please ensure that Python 3 (**"python>=3.12.0"**) has been installed on your computer (and has been set in System Path).
 2. Clone or donwload the <font color=#FFFF00>***"main"***</font> repository to your computer/device.
 
   <img src=".\figures\download_page.png" alt="stable" style="zoom:40%;" />
 
 3. Open the Powershell or Command Line Interface;
-4. Enter the OKseg directory and use the <font color=#FFFF00>***"installment.py"***</font> to set up the environment for OKseg:
+4. Enter the OKseg directory and use the <font color=#FFFF00>***"installation.py"***</font> to set up the environment for OKseg:
 ```cmd
 cd your_path/OKseg
-python installment.py
+python installation.py
 ```
 
 ## Preparation
@@ -84,8 +84,9 @@ This project is for academic use only. The purpose is to explore AI's potential 
 
 - The OKseg model is based on the SegFormer_Segmentation model.
 - The Gradio library is used for creating the user interface.
+- Original repo from [Avenlee-github](https://github.com/Avenlee-github/OKseg). This fork updates the requirements and how the virtual environment is managed.
 
 ## Reference
-- https://github.com/ggyyzm/pytorch_segmentation  
-- https://github.com/NVlabs/SegFormer  
-- https://github.com/bubbliiiing/segformer-pytorch
+- <https://github.com/ggyyzm/pytorch_segmentation>
+- <https://github.com/NVlabs/SegFormer>
+- <https://github.com/bubbliiiing/segformer-pytorch>
