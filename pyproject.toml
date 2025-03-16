@@ -1,0 +1,21 @@
+[project]
+name = "okseg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=3.27.0",
+    "h5py>=2.10.0",
+    "matplotlib>=3.1.2",
+    "numpy>=1.17.0",
+    "opencv-python>=4.6.0",
+    "openpyxl>=3.0.10",
+    "pandas>=1.4.0",
+    "pillow>=9.4.0",
+    "scipy>=1.2.1",
+    "tk>=0.1.0",
+    "torch>=1.12.0",
+    "torchvision>=0.4.0",
+    "tqdm>=4.60.0",
+]
